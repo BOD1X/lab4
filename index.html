@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Plan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="planner">
+
+    <!-- Шапка -->
+    <header class="header">
+      <h1 class="title">WEEKLY PLAN</h1>
+      <div class="field">
+        <label for="week-of">WEEK OF</label>
+        <input type="text" id="week-of">
+      </div>
+      <div class="field">
+        <label for="habit">HEALTHY HABIT</label>
+        <input type="text" id="habit">
+      </div>
+      <div class="rating">
+        <label class="rate"><span>ROCKED IT</span><input type="checkbox"></label>
+        <label class="rate"><span>ROOM FOR IMPROVEMENT</span><input type="checkbox"></label>
+      </div>
+    </header>
+
+    <!-- Колонка To Do -->
+    <aside class="todo">
+      <div class="todo-label">TO DO</div>
+
+      <h2 class="section">TOP 3 GOALS</h2>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+
+      <h2 class="section">EVERYTHING ELSE</h2>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+
+      <h2 class="section">NEXT WEEK</h2>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+      <div class="line"><input type="checkbox"><input type="text"></div>
+    </aside>
+
+    <!-- Дні тижня -->
+    <section class="day monday">
+      <div class="day-head"><span>MONDAY</span><input type="checkbox"></div>
+      <textarea aria-label="Monday notes"></textarea>
+    </section>
+
+    <section class="day tuesday">
+      <div class="day-head"><span>TUESDAY</span><input type="checkbox"></div>
+      <textarea aria-label="Tuesday notes"></textarea>
+    </section>
+
+    <section class="day wednesday">
+      <div class="day-head"><span>WEDNESDAY</span><input type="checkbox"></div>
+      <textarea aria-label="Wednesday notes"></textarea>
+    </section>
+
+    <section class="day thursday">
+      <div class="day-head"><span>THURSDAY</span><input type="checkbox"></div>
+      <textarea aria-label="Thursday notes"></textarea>
+    </section>
+
+    <section class="day friday">
+      <div class="day-head"><span>FRIDAY</span><input type="checkbox"></div>
+      <textarea aria-label="Friday notes"></textarea>
+    </section>
+
+    <div class="weekend">
+      <section class="day saturday">
+        <div class="day-head"><span>SATURDAY</span><input type="checkbox"></div>
+        <textarea aria-label="Saturday notes"></textarea>
+      </section>
+      <section class="day sunday">
+        <div class="day-head"><span>SUNDAY</span><input type="checkbox"></div>
+        <textarea aria-label="Sunday notes"></textarea>
+      </section>
+    </div>
+
+    <footer class="footer"></footer>
+  </div>
+</body>
+</html>
